@@ -1,3 +1,5 @@
 $('.nav a').on('click', function(){
-    $('.navbar-toggle').click();
+	if ($(".navbar-toggle").css("display") !== "none") {
+ 	   $('.navbar-toggle').click();
+	}
 });

@@ -4,10 +4,19 @@
 	ce site est développé avec HTML, CSS, JAVASCRIPT,	Bootstrap, fontawesome, animate.css ,Jquery 
 
 -->
+<?php $random_backgroud_number = rand(0, 4); ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<?php include("includes/base_head.html"); ?>
+		
+		<style type="text/css">
+			header {
+				background: url("/images/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+		</style>
 	</head>
 	<body>
 		<?php include("views/loader.html"); ?>
