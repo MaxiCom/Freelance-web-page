@@ -4,3 +4,4 @@ images/
 images/*
 favicon.png
 todo
+.gitignore
