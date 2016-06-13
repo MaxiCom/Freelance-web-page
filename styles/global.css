@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #222;
+  text-decoration: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+hr {
+  height: 4px;
+  max-width: 200px;
+  margin: 20px auto;
+  border-color: #3D85C3;
+  background-color: #3D85C3; }
+
+body {
+  font-family: "Open Sans", Verdana;
+  background-color: white;
+  min-width: 500px; }
+
+#wrapper {
+  display: none; }
+
+nav {
+  background-color: transparent !important;
+  text-transform: uppercase;
+  transition: .3s all ease-in; }
+  nav a, nav i {
+    font-weight: bold;
+    color: #e7e7e7 !important; }
+  nav a:hover, nav a:hover i {
+    color: #777 !important; }
+  nav.scrolled {
+    background-color: white !important; }
+    nav.scrolled a, nav.scrolled a i {
+      color: #222222 !important; }
+    nav.scrolled a:hover, nav.scrolled a:hover i {
+      color: #3498db !important; }
+
+header {
+  width: 100%;
+  height: 100%;
+  background: url("../images/header.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  header .header-content {
+    position: relative;
+    top: 40%; }
+    header .header-content .header-content-inner {
+      color: white; }
+      header .header-content .header-content-inner h1 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 3em; }
+      header .header-content .header-content-inner h3 {
+        margin-bottom: 20px; }
+      header .header-content .header-content-inner a {
+        border-radius: 10px; }
+
+#About, #Services, #Whoami, #Contact {
+  padding: 70px 0;
+  text-align: center; }
+  #About h2, #About h3, #About p, #About i, #Services h2, #Services h3, #Services p, #Services i, #Whoami h2, #Whoami h3, #Whoami p, #Whoami i, #Contact h2, #Contact h3, #Contact p, #Contact i {
+    color: #333; }
+
+#About {
+  background-color: #3498db; }
+  #About h3 {
+    color: white; }
+  #About a {
+    margin-top: 30px;
+    border-radius: 10px; }
+
+#Services p {
+  color: grey; }
+#Services .service-box {
+  margin-top: 30px; }
+
+#Whoami {
+  background-color: #222222; }
+  #Whoami h2, #Whoami p {
+    color: #e7e7e7; }
+  #Whoami img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; }
+
+#Contact .Contact-item {
+  margin: 20px 0; }
+
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,160 @@
+@import "scss/_var";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #222;
+
+	text-decoration: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+hr {
+	height: 4px;
+	max-width: 200px;
+
+	margin: 20px auto;
+
+	border-color: #3D85C3;
+	background-color: #3D85C3;
+}
+
+body {
+	font-family: $font;
+
+	background-color: $background-color;
+
+	min-width: 500px;
+}
+
+#wrapper {
+	display: none;
+}
+
+nav {
+	background-color: transparent !important;
+
+	text-transform: uppercase;
+
+	transition: .3s all ease-in;
+
+	a, i {
+		font-weight: bold;
+
+		color: $text-color !important;
+	}
+
+	a:hover, a:hover i{
+		color: #777 !important;
+	}
+
+	&.scrolled {
+		background-color: white !important;
+
+		a, a i {
+			color: #222222 !important;
+		}
+
+		a:hover, a:hover i {
+			color: $blue-color !important;
+		}
+	}
+}
+
+header {
+	width: 100%;
+	height: 100%;
+
+	background: url("../images/header.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	text-align: center;
+
+	.header-content {
+
+		position: relative;
+		top: 40%;
+
+		.header-content-inner {
+			color: white;
+
+			h1 {
+				margin: 0;
+				
+				font-weight: bold;
+				font-size: 3em;
+			}
+
+			h3 {
+				margin-bottom: 20px;
+			}
+
+			a {
+				border-radius: 10px;
+			}
+		}
+	}
+}
+
+#About, #Services, #Whoami, #Contact {
+	padding: 70px 0;
+
+	text-align: center;
+
+	h2, h3, p, i {
+		color: #333;
+	}
+}
+
+#About {
+	background-color: $blue-color;
+
+	h3 {
+		color: white;
+	}
+
+	a {
+		margin-top: 30px; 
+
+		border-radius: 10px;
+	}
+}
+
+#Services {
+	p {
+		color: grey;
+	}
+
+	.service-box {
+		margin-top: 30px;
+	}
+}
+
+#Whoami {
+	background-color:#222222;
+
+	h2, p {
+		color: $text-color;
+	}
+
+	img {
+		width: 200px;
+		height: 200px;
+
+		border-radius: 100%;
+	}
+}
+
+#Contact {
+	.Contact-item {
+		margin: 20px 0; 
+	}
+}
