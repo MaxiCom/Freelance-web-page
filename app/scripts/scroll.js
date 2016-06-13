@@ -4,9 +4,25 @@ $(window).scroll(function (event) {
   //Top bar
 	if (scroll > 250)
 		$("nav").addClass("scrolled");
-	else if (scroll < 700)
+	else if (scroll < 250)
 		$("nav").removeClass("scrolled");
-  //PAS FINI
+  
+  //About btn
+  if (scroll > 500)
+    $("#About-btn").addClass("animated fadeInUp opacity");
+
+  //Services boxes
+  if (scroll > 900){
+    $(".service-box-left").addClass("animated fadeInLeft opacity");
+    $(".service-box-right").addClass("animated fadeInRight opacity");
+  }
+
+  //Contact boxes
+  if (scroll > 1500){
+    $(".contact-item-left").addClass("animated fadeInLeft opacity");
+    $(".contact-item-middle").addClass("animated fadeInUp opacity");
+    $(".contact-item-right").addClass("animated fadeInRight opacity");
+  }
 });
 
 // --------------- //

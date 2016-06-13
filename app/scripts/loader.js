@@ -8,11 +8,14 @@ $(document).ready(function() {
 	);
     
     setTimeout(function(){
-    	$('#wrapper').css("display", "block");
+    	
+        $('#wrapper').css("display", "block");
         $('.cs-loader').addClass('loaded');
+        
         setTimeout(function (){
         	$('.cs-loader').css("display", "none");
         }, 200);
+        
     }, 3100);
 
 });

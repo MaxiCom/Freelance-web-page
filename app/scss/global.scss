@@ -34,11 +34,19 @@ body {
 	min-width: 500px;
 }
 
+.opacity {
+	opacity: 1;
+
+	visibility: visible !important;
+}
+
 #wrapper {
 	display: none;
 }
 
 nav {
+	border-bottom: 0 !important;
+
 	background-color: transparent !important;
 
 	text-transform: uppercase;
@@ -56,6 +64,8 @@ nav {
 	}
 
 	&.scrolled {
+		border-bottom: 1px solid grey !important;
+
 		background-color: white !important;
 
 		a, a i {
@@ -122,9 +132,12 @@ header {
 	}
 
 	a {
+		visibility: hidden;
 		margin-top: 30px; 
 
 		border-radius: 10px;
+
+		transition: .5s all ease-in;
 	}
 }
 
@@ -135,6 +148,11 @@ header {
 
 	.service-box {
 		margin-top: 30px;
+	}
+	.service-box-left, .service-box-right {
+		opacity: 0;
+
+		transition: 0.5 all ease-in;
 	}
 }
 
@@ -154,7 +172,9 @@ header {
 }
 
 #Contact {
-	.Contact-item {
+	.contact-item {
+		visibility: hidden;
+
 		margin: 20px 0; 
 	}
 }
