@@ -62,8 +62,23 @@ nav {
 	a:hover, a:hover i{
 		color: #777 !important;
 	}
+	
+	&.transform{
 
-	&.scrolled {
+		border-bottom: 1px solid #8080804d !important;
+
+		background-color: white !important;
+
+		a, a i {
+			color: #222222 !important;
+		}
+
+		a:hover, a:hover i {
+			color: $blue-color !important;
+		}
+	}
+	
+	@media (max-width: 768px) {
 		border-bottom: 1px solid #8080804d !important;
 
 		background-color: white !important;
@@ -77,6 +92,7 @@ nav {
 		}
 	}
 }
+
 
 header {
 	width: 100%;

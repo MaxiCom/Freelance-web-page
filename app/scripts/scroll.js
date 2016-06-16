@@ -3,9 +3,9 @@ $(window).scroll(function (event) {
 	
   //Top bar
 	if (scroll > $(document).height() * 0.08)
-		$("nav").addClass("scrolled");
+		$("nav").addClass("transform");
 	else if (scroll < $(document).height() * 0.8)
-		$("nav").removeClass("scrolled");
+		$("nav").removeClass("transform");
   
   //About btn
   if (scroll > $(document).height() * 0.12)

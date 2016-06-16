@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<?php include("includes/base_head.html"); ?>
+		<?php include("views/head.html"); ?>
 		
 		<style type="text/css">
 			header {
