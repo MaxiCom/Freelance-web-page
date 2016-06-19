@@ -9,19 +9,19 @@ $(window).scroll(function (event) {
   
   //About btn
   if (scroll > $(document).height() * 0.12)
-    $("#About-btn").addClass("animated fadeInUp opacity");
+    $("#About-btn").addClass("animated fadeInUp visible");
 
   //Services boxes
   if (scroll > $(document).height() * 0.27){
-    $(".service-box-left").addClass("animated fadeInLeft opacity");
-    $(".service-box-right").addClass("animated fadeInRight opacity");
+    $(".service-box-left").addClass("animated fadeInLeft visible");
+    $(".service-box-right").addClass("animated fadeInRight visible");
   }
 
   //Contact boxes
   if (scroll > $(document).height() * 0.6){
-    $(".contact-item-left").addClass("animated fadeInLeft opacity");
-    $(".contact-item-middle").addClass("animated fadeInUp opacity");
-    $(".contact-item-right").addClass("animated fadeInRight opacity");
+    $(".contact-item-left").addClass("animated fadeInLeft visible");
+    $(".contact-item-middle").addClass("animated fadeInUp visible");
+    $(".contact-item-right").addClass("animated fadeInRight visible");
   }
 });
 

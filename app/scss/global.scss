@@ -16,14 +16,10 @@ html, body {
 	height: 100%;
 }
 
-hr {
-	height: 4px;
-	max-width: 200px;
+.visible {
+	opacity: 1;
 
-	margin: 20px auto;
-
-	border-color: #3D85C3;
-	background-color: #3D85C3;
+	visibility: visible !important;
 }
 
 body {
@@ -32,16 +28,18 @@ body {
 	background-color: $background-color;
 
 	min-width: 500px;
-}
 
-.opacity {
-	opacity: 1;
+	hr {
+		height: 4px;
+		max-width: 200px;
 
-	visibility: visible !important;
-}
+		margin: 20px auto;
 
-#wrapper {
-	display: none;
+		border-color: #3D85C3;
+		background-color: #3D85C3;
+	}
+
+	#wrapper {display: none;}
 }
 
 nav {
@@ -59,23 +57,19 @@ nav {
 		color: $text-color !important;
 	}
 
-	a:hover, a:hover i{
-		color: #777 !important;
-	}
+	a:hover, a:hover i{color: #777 !important;}
 	
+
+	//Problem
 	&.transform{
 
 		border-bottom: 1px solid #8080804d !important;
 
 		background-color: white !important;
 
-		a, a i {
-			color: #222222 !important;
-		}
+		a, a i {color: #222222 !important;}
 
-		a:hover, a:hover i {
-			color: $blue-color !important;
-		}
+		a:hover, a:hover i {color: $blue-color !important;}
 	}
 	
 	@media (max-width: 768px) {
@@ -83,14 +77,11 @@ nav {
 
 		background-color: white !important;
 
-		a, a i {
-			color: #222222 !important;
-		}
+		a, a i {color: #222222 !important;}
 
-		a:hover, a:hover i {
-			color: $blue-color !important;
-		}
+		a:hover, a:hover i {color: $blue-color !important;}
 	}
+	// END
 }
 
 
@@ -115,13 +106,9 @@ header {
 				font-size: 3em;
 			}
 
-			h3 {
-				margin-bottom: 20px;
-			}
+			h3 {margin-bottom: 20px;}
 
-			a {
-				border-radius: 10px;
-			}
+			a {border-radius: 10px;}
 		}
 	}
 }
@@ -131,17 +118,13 @@ header {
 
 	text-align: center;
 
-	h2, h3, p, i {
-		color: #333;
-	}
+	h2, h3, p, i {color: #333;}
 }
 
 #About {
 	background-color: $blue-color;
 
-	h3 {
-		color: white;
-	}
+	h3 {color: white;}
 
 	a {
 		visibility: hidden;
@@ -154,13 +137,10 @@ header {
 }
 
 #Services {
-	p {
-		color: grey;
-	}
+	p {color: grey;}
 
-	.service-box {
-		margin-top: 30px;
-	}
+	.service-box {margin-top: 30px;}
+
 	.service-box-left, .service-box-right {
 		opacity: 0;
 
@@ -171,9 +151,7 @@ header {
 #Whoami {
 	background-color:#222222;
 
-	h2, p {
-		color: $text-color;
-	}
+	h2, p {color: $text-color;}
 
 	img {
 		width: 200px;
