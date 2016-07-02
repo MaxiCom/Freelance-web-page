@@ -4,7 +4,7 @@
 	ce site est développé avec HTML, CSS, JAVASCRIPT,	Bootstrap, fontawesome, animate.css ,Jquery 
 
 -->
-<?php $random_backgroud_number = rand(0, 4); ?>
+<?php $random_backgroud_number = rand(0, 2); ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
