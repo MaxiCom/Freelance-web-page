@@ -1,15 +1,8 @@
-<!--
-
-	Salut, jeûne padawan, si tu veux en savoir plus,
-	ce site est développé avec HTML, CSS, JAVASCRIPT,	Bootstrap, fontawesome, animate.css ,Jquery 
-
--->
 <?php $random_backgroud_number = rand(0, 2); ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<?php include("views/head.html"); ?>
-		
 		<style type="text/css">
 			header {
 				background: url("/images/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
