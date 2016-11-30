@@ -6,6 +6,8 @@ Lien: http://maxime-morlet.hostei.com/
 
 Développée avec:
 
+  -Sass
+
   -Bootstrap
   
   -FontAwesome
