@@ -1,6 +1,6 @@
 # Freelance-web-page
 
-Ma page Freelance web
+Ma page Freelance développeur web.
 
 Lien: http://maxime-morlet.hostei.com/
 
