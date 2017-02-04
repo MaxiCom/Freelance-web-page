@@ -2,8 +2,6 @@
 
 Ma page Freelance développeur web.
 
-Lien: http://maxime-morlet.hostei.com/
-
      Compilation Sass: "sass --watch scss:styles"
 
 Développée avec:
