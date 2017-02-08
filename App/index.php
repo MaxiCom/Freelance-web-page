@@ -5,7 +5,7 @@
 		<?php include("views/head.html"); ?>
 		<style type="text/css">
 			header {
-				background: url("/images/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
+				background: url("/resources/images/background/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
 				background-position: center;
 				background-size: cover;
 			}
