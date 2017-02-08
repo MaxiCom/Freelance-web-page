@@ -1,0 +1,46 @@
+#About, #Services, #Whoami, #Contact {
+	padding: 70px 0;
+
+	text-align: center;
+
+	h2, h3, p, i { color: #333; }
+}
+
+#About {
+	background-color: $blue-color;
+
+	a {
+		visibility: hidden;
+		margin-top: 30px; 
+
+		border-radius: 5px;
+
+		transition: .5s all ease-in;
+	}
+
+	h3 { color: white; }
+}
+
+#Services {
+	.service-box-left, .service-box-right {
+		opacity: 0;
+
+		transition: 0.5 all ease-in;
+	}
+
+	p { color: grey; }
+	.service-box { margin-top: 30px; }
+}
+
+#Whoami {
+	background-color:#222222;
+
+	img {
+		width: 200px;
+		height: 200px;
+
+		border-radius: 100%;
+	}
+
+	h2, p {color: $text-color;}
+}

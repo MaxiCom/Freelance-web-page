@@ -3,6 +3,7 @@
 <html lang="fr">
 	<head>
 		<?php include("views/head.html"); ?>
+
 		<style type="text/css">
 			header {
 				background: url("/resources/images/background/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
@@ -10,7 +11,10 @@
 				background-size: cover;
 			}
 		</style>
+
+		<link rel="stylesheet" type="text/css" href="styles/index/global.css">
 	</head>
+	
 	<body>
 		<?php include("views/loader.html"); ?>
 		<?php include("views/header.html"); ?>

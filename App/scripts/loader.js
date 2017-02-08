@@ -1,9 +1,9 @@
 $(document).ready(function() {
  	
  	console.log(
-		"Salut, jeûne padawan, si tu veux en savoir plus," +
-		" ce site est développé avec\n\n" +
-		"HTML, SASS, JAVASCRIPT,	Bootstrap, fontawesome, animate.css, Jquery\n\n" +
+		"Salut jeune padawan, si tu veux en savoir plus, " +
+		"ce site a été développé avec\n\n" +
+		"HTML, CSS(Sass, Bootstrap, FontAwesome, Animate.css), Javascript(JQuery)\n\n" +
 		"Ciao ;)"
 	);
     

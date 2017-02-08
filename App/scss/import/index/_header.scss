@@ -1,0 +1,81 @@
+body {
+	min-width: 500px;
+
+	hr {
+		height: 4px;
+		max-width: 200px;
+
+		margin: 20px auto;
+
+		border-color: #3D85C3;
+		background-color: #3D85C3;
+	}
+
+	#wrapper { display: none; }
+}
+
+nav {
+	border-bottom: 0 !important;
+
+	background-color: transparent !important;
+
+	text-transform: uppercase;
+
+	transition: .3s all ease-in;
+
+	a, i {
+		font-weight: bold;
+
+		color: $text-color !important;
+	}
+
+	// PROBLEM
+	&.transform{
+
+		border-bottom: 1px solid #8080804d !important;
+
+		background-color: white !important;
+
+		a, a i { color: #222222 !important; }
+		a:hover, a:hover i { color: $blue-color !important; }
+	}
+	
+	@media (max-width: 768px) {
+		border-bottom: 1px solid #8080804d !important;
+
+		background-color: white !important;
+
+		a, a i { color: #222222 !important; }
+		a:hover, a:hover i { color: $blue-color !important; }
+	}
+	// END
+
+	a:hover, a:hover i{ color: #777 !important; }
+}
+
+header {
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+
+	text-align: center;
+
+	.header-content {
+		position: relative;
+		top: 40%;
+
+		.header-content-inner {
+			color: white;
+
+			h1 {
+				margin: 0;
+				
+				font-weight: bold;
+				font-size: 3em;
+			}
+
+			h3 { margin-bottom: 20px; }
+			a { border-radius: 5px; }
+		}
+	}
+}
