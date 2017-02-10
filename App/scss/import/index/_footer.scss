@@ -4,4 +4,9 @@
 
 		margin: 20px 0; 
 	}
+
+	a, a i { transition: .15s color ease-in; }
+	a:hover, a:hover i {
+		color: $blue-color;
+	}
 }

@@ -6,6 +6,7 @@
   src: local('Open Sans'), local('OpenSans'), url('/resources/fonts/OpenSans/OpenSans-Regular.ttf');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
 /* latin */
 @font-face {
   font-family: 'Open Sans';
@@ -14,6 +15,7 @@
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/resources/fonts/OpenSans/OpenSans-Bold.ttf');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
 @font-face {
   font-family: 'fontello';
   src: url('/resources/fonts/Fontello/fontello.eot?46105271');
