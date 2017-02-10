@@ -6,8 +6,10 @@
 
 		<style type="text/css">
 			header {
-				background: url("/resources/images/background/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
-				background-position: center;
+				background: url("/resources/images/background/header<?php echo $random_backgroud_number; ?>.jpg") no-repeat center center;
+			  	-webkit-background-size: cover;
+				-moz-background-size: cover;
+ 				-o-background-size: cover;
 				background-size: cover;
 			}
 		</style>
