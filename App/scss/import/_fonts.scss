@@ -14,3 +14,61 @@
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/resources/fonts/OpenSans/OpenSans-Bold.ttf');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+@font-face {
+  font-family: 'fontello';
+  src: url('/resources/fonts/Fontello/fontello.eot?46105271');
+  src: url('/resources/fonts/Fontello/fontello.eot?46105271#iefix') format('embedded-opentype'),
+       url('/resources/fonts/Fontello/fontello.woff2?46105271') format('woff2'),
+       url('/resources/fonts/Fontello/fontello.woff?46105271') format('woff'),
+       url('/resources/fonts/Fontello/fontello.ttf?46105271') format('truetype'),
+       url('/resources/fonts/Fontello/fontello.svg?46105271#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-help-circled:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-align-justify:before { content: '\e802'; } /* '' */
+.icon-folder:before { content: '\e803'; } /* '' */
+.icon-wrench:before { content: '\e804'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-lightbulb:before { content: '\f0eb'; } /* '' */
+.icon-upload-cloud:before { content: '\f0ee'; } /* '' */
+.icon-stackoverflow:before { content: '\f16c'; } /* '' */
+.icon-paper-plane:before { content: '\f1d8'; } /* '' */
