@@ -2,7 +2,7 @@
 
 Ma page Freelance développeur web.
 
-Lien: https://Maxime-Morlet.fr/
+Lien: https://MaxiCom.pro
 
      Compilation Sass: "sass --watch scss:styles"
 
